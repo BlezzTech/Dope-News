@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BleZz Webpage</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#"><i class="fas fa-globe"></i> Top stories</a>
+        <a href="foryou.html"><i class="fas fa-user-alt"></i> For you</a>
+        <a href="following.html"><i class="fas fa-star"></i> Following</a>
+        <a href="#"><i class="fas fa-search"></i> Saved searches</a>
+        <hr>
+        <a href="#"><i class="fas fa-virus"></i> COVID-19</a>
+        <hr>
+        <a href="nigeria.html"><i class="fab fa-font-awesome"></i> Nigeria</a>
+        <a href="world.html"><i class="fas fa-globe"></i> World</a>
+        <a href="#"><i class="fas fa-map-marker-alt"></i> Your local news</a>
+        <a href="business.html"><i class="fas fa-business-time"></i> Business</a>
+        <a href="technology.html"><i class="fas fa-bug"></i> Technology</a>
+        <a href="entertainment.html"><i class="fas fa-film"></i> Entertainment</a>
+        <a href="sports.html"><i class="fas fa-biking"></i> Sports</a>
+        <a href="science.html"><i class="fas fa-flask"></i> Science</a>
+        <a href="health.html"><i class="fas fa-hospital"></i> Health</a>
+        <a href="aboutus.html"><i class="fas fa-users"></i> About Us</a>
+        <a href="jobs.html"><i class="fas fa-users"></i> Jobs</a>
+        <a href="books.html"><i class="fas fa-book"></i> Books And Research</a>
+        <a href="register.html"><i class="fas fa-pen"></i> Register With Us</a>
+        <a href="write.html"><i class="fas fa-edit"></i> Write Your Articles</a>
+        <a href="viewpost.html"><i class="fas fa-eye"></i> View Posts</a>
+        <a href="email.html"><i class="fas fa-hand-holding-usd"></i> Donate Via Email</a>
+        <a href="donation.html"><i class="fas fa-hand-holding-usd"></i> Donate Via ATM</a>
+        <a href="subscribe.html"><i class="fas fa-envelope"></i> Subscribe</a>
+        <hr>
+        <a href="#"><i class="fas fa-edith"></i> Language and Region <br> English (Nigeria) </a>
+        <a href="#"><i class="fas fa-edith"></i> Settings</a>
+        <a href="#"><i class="fas fa-edith"></i> Get the Android app</a>
+        <a href="#"><i class="fas fa-edith"></i> Get the iOs app</a>
+        <a href="#"><i class="fas fa-edith"></i> Send feedback</a>
+        <a href="#"><i class="fas fa-edith"></i> Help</a> <br><br><br>
+        <a href="#"><i class="fab fa-edith"></i> Privacy.Terms.About Dope News</a>
+    </div>
+
+    <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <i class="fas fa-dove" style="font-size: 50px; color: goldenrod"></i> Dove News</span>
+        <div class="search-container">
+            <form>
+                <input type="text" placeholder="Search for topics, location and sources" name="search">
+            </form>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8" style="background-color:#111; color: aliceblue">
+                <div class="top" style="margin-top: 35px;">
+                    <h4><i class="fab fa-font-awesome" style="font-size: 50px; color: dodgerblue"></i> NIGERIA </h4>
+                    <span style="float: right">
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                            Subscribe To Our Newsletter
+                        </button>
+
+                        <!-- The Modal -->
+                        <div class="modal fade" id="myModal">
+                            <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" style="color: black">Subscribe To Our Newsletter</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="fname" class="form-control" id="fname" placeholder="Enter Your Name" name="fname" required>
+                                            </div>
+
+                                        </form>
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Subscribe</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--                        <a href="subscribe.html" class="btn btn-primary" role="button"><i class="fab fa-accessible-icon"></i> Subscribe To Our Newsletter</a>-->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-primary"> <i class="fas fa-share-alt"></i> Share </button>
+                            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                                <span class="caret"></span>
+                            </button>
+                            <div class="dropdown-menu" style="background-color: #999; color: goldenrod;">
+                                <a class="dropdown-item" href="#"><i class="fab fa-facebook" style="color: #3B5998;"></i> facebook</a>
+                                <a class="dropdown-item" href="#"><i class="fab fa-twitter" style="color: #55ACEE;"></i> Twitter</a>
+                                <a class="dropdown-item" href="#"><i class="fab fa-instagram" style="color: #125688;"></i> Instagram</a>
+                                <a class="dropdown-item" href="#"><i class="fab fa-whatsapp" style="color: springgreen;"></i> Whatsapp</a>
+                                <a class="dropdown-item" href="#"><i class="fab fa-linkedin" style="color: #007bb5;"></i> LnkedIn</a>
+                                <a class="dropdown-item" href="#"><i class="fab fa-google" style="color: #dd4b39;"></i> Google</a>
+                                <a class="dropdown-item" href="#"><i class="fab fa-youtube" style="color: #bb0000;"></i> YouTube</a>
+                                <a class="dropdown-item" href="#"><i class="fab fa-pinterest" style="color: #cb2027;"></i> Pinterest</a>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div id="navbar" style="border-bottom:1px solid; font-size:60px; margin-top: 80px;">
+                    <a href="#" class="btn btn-warning" role="button"><i class="fas fa-sign-language"></i> Breaking News</a>
+                    <a href="#" class="btn btn-warning" role="button"><i class="fas fa-mobile-alt"></i> Politics</a>
+                    <a href="#" class="btn btn-warning" role="button"><i class="fas fa-laptop-house"></i> Crime</a>
+                    <a href="#" class="btn btn-warning" role="button"><i class="fas fa-ethernet"></i> Weather Forecast</a>
+                    <a href="#" class="btn btn-warning" role="button"><i class="fas fa-ethernet"></i> Digital Market Forecast</a>
+                </div>
+                <div class="card" style="margin-top: 50px; background-color: black">
+                    <div class="card-body">
+                        <img src="images/sark.jpg" class="float-right" alt="pac" width="104" height="100">
+                        <h4>Arrested IPOB Members Confess: We swore an oath to die mysteriously if we disobeyed Kanu</h4>
+                        <p><a href="morenews.html" class="btn btn-dark" role="button">Vanguard 1 hour ago</a></p>
+                        <ul>
+                            <li><strong>Kenya tortured, detained Kanu for eight days before repatriation to Nigeria - Lawyer</strong></li>
+                            <a href="morenews.html" class="btn btn-dark" role="button">Punch Newspaper 3 hours ago</a><br><br>
+                            <a href="morenews.html" class="btn btn-outline-warning" role="button"><i class="fas fa-book-reader"></i> View Full Coverage</a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" style="margin-top: 20px; margin-bottom: 20px; background-color: black">
+                    <div class="card-body">
+                        <img src="images/rema.jpg" class="float-right" alt="pac" width="104" height="100">
+                        <h3>Sunday Igboho: Stakeholders express mixed reaction over invasion, killing, arrest of aides.</h3>
+                        <p><a href="morenews.html" class="btn btn-dark" role="button">Daily Post Nigeria . 2 hours ago</a></p><br>
+                        <ul>
+                            <li><strong>DSS manhunt: Igboho goes underground, whereabouts unknown to associate</strong><br>
+                                <a href="morenews.html" class="btn btn-dark" role="button">Punch Newspapers . 3 hours ago</a>
+                            </li><br>
+                            <li><strong>REVEALED: When Sunday Igboho found out they're here to kill, he entered a room, and disappeared - Aide</strong><br>
+                                <a href="morenews.html" class="btn btn-dark" role="button">Vanguard . 13 hours ago</a>
+                            </li><br>
+                            <li><strong>Igboho's men dare police over Lagos rally</strong><br>
+                                <a href="morenews.html" class="btn btn-dark" role="button">The Nation Newspaper . 2 hours ago</a>
+                            </li><br>
+                            <li><strong>Why Sunday Igboho escaped during house raid - DSS</strong><br>
+                                <a href="morenews.html" class="btn btn-dark" role="button">Punch Newspapers . 2 hours ago</a>
+                            </li><br>
+                            <a href="morenews.html" class="btn btn-outline-warning" role="button"><i class="fas fa-book-reader"></i> View Full coverage</a>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4" style="background-color:#222;">
+                <div class="card" style="margin-bottom: 50px; background-color: #222; border: none">
+                    <div class="card-body">
+                        <button type="button" class="btn btn-warning"><i class="fas fa-horse-head"></i> More Stories</button><br><br>
+                        <a href="email.html" class="btn btn-danger" role="button"><i class="fas fa-hand-holding-usd"></i> We Accept Donations To Serve You Better!</a><br><br>
+                        <div class="card" style="background-color: black; color: aliceblue">
+                            <div class="card-body">
+                                <img src="images/second.jpg" style="width:20%; height: 50px">
+                                <p>Beef Between Bia and Burna Boy.</p>
+                                <button type="button" class="btn btn-outline-light btn-sm"><i class="fas fa-book-reader"></i> Read Here..</button>
+                            </div>
+                        </div><br>
+                        <div class="card" style="background-color: black; color: aliceblue">
+                            <div class="card-body">
+                                <img src="images/sixth.jpg" style="width:20%; height: 50px">
+                                <p>Wizkid and Tems to Perform in NY.</p>
+                                <button type="button" class="btn btn-outline-light btn-sm"><i class="fas fa-book-reader"></i> Read Here..</button>
+                            </div>
+                        </div><br>
+                        <div class="card" style="background-color: black; color: aliceblue">
+                            <div class="card-body">
+                                <img src="images/ssecond.jpg" style="width:20%; height: 50px">
+                                <p>Sound Sultan Buried.</p>
+                                <button type="button" class="btn btn-outline-light btn-sm"><i class="fas fa-book-reader"></i> Read Here..</button>
+                            </div>
+                        </div><br>
+                        <div class="card" style="background-color: black; color: aliceblue">
+                            <div class="card-body">
+                                <img src="images/third.jpg" style="width:20%; height: 50px">
+                                <p>Kanye West Teases New Album.</p>
+                                <button type="button" class="btn btn-outline-light btn-sm"><i class="fas fa-book-reader"></i> Read Here..</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="margin-bottom: 30px; background-color: #888">
+                    <div class="card-body">
+                        <button type="button" class="btn btn-outline-light btn-lg"><i class="fas fa-kiwi-bird"></i> Tags</button><br><br>
+                        <button type="button" class="btn btn-dark btn-sm"><i class="fas fa-external-link-alt"></i> Travel</button>
+                        <button type="button" class="btn btn-info btn-sm"><i class="fas fa-external-link-alt"></i> Kaduna</button>
+                        <button type="button" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Abuja</button>
+                        <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-external-link-alt"></i> Lagos</button><br><br>
+                        <button type="button" class="btn btn-success btn-sm"><i class="fas fa-external-link-alt"></i> PH</button>
+                        <button type="button" class="btn btn-warning btn-sm"><i class="fas fa-external-link-alt"></i> Jos</button>
+                        <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-external-link-alt"></i> Kano</button>
+                        <button type="button" class="btn btn-info btn-sm"><i class="fas fa-external-link-alt"></i> Enugu</button><br><br>
+                        <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-external-link-alt"></i> Onitsha</button>
+                        <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-external-link-alt"></i> Asaba</button>
+                        <button type="button" class="btn btn-success btn-sm"><i class="fas fa-external-link-alt"></i> Warri</button>
+                        <button type="button" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Owerri</button>
+                    </div>
+                </div>
+                <a href="email.html" class="btn btn-danger" role="button"><i class="fas fa-hand-holding-usd"></i> We Accept Donations in Other to Keep Serving You Better. </a>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron text-center" style="margin-bottom:0; font-size: 25px; font-weight: bolder; color: goldenrod; background-color: black;">
+        <p><strong><i class="fas fa-dove" style="font-size: 70px"></i> Dove News</strong></p>
+        <div class="social__icons">
+            <a href="#" class="social__icon--link" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="social__icon--link" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social__icon--link" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social__icon--link" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" class="social__icon--link" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </div>
+    <script src=" js/main.js"></script>
+</body>
+
+</html>
